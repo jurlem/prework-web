@@ -103,7 +103,7 @@ span:hover {
   padding-left: 10px;
   border-radius: 0;
   background-color: rgba(0,0,0,.05);
-  
+  margin-bottom: 10px;
   
 }
 
@@ -114,10 +114,11 @@ span:hover {
   letter-spacing: 0.5px;
   text-align: center;
   text-decoration: none;
-  display: block;
   width: 100px;
-  border: 2px black solid 0.2 ;
-  style: inline-block;
+  border: 2px black solid 0.2;
+  display: inline-block;
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 /*.right-side {
