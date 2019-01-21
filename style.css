@@ -1,0 +1,314 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  font-weight: 75;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 200;
+  display: block;
+}
+
+nav {
+  background-color: white;
+  color: black;
+  font-weight: 400px;
+  padding-top: 5px;
+  height: 35px;
+  font-family: 'Source Sans Pro';
+  display: inline;
+  width: 40%;
+  text-align: left;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.heart {
+  margin: 5px 30px;
+}
+
+.top-left {
+  display: inline-block;
+  margin: 5px 30px;
+  font-weight: bold;
+  
+}
+
+.top-links {
+  display: inline-block;
+  padding: 0 auto;
+  margin: 5px 30px;
+  letter-spacing: 0.015625em;
+  font-size: .875rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color .15s ease-in;
+}
+.top-links a:hover {
+  color: grey;
+}
+
+.acronym {
+  letter-spacing: 0.015625em;
+  font-size: .875rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color .15s ease-in;
+}
+span:hover {
+  color: grey;
+}
+.search-bar p:hover {
+  color:gray;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.search-bar {
+  style: inline-block;
+  margin: 0 auto;
+  display: flex;
+} 
+
+.logo {
+  margin: 5px 10px 5px 30px;
+  width: 70px;
+  style: inline-block;
+}
+.type-in {
+  width: 1000px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  border: none;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 0;
+  background-color: rgba(0,0,0,.05);
+  
+  
+}
+
+.search {
+  color: white;
+  background-color: red;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  border: 2px black solid 0.2 ;
+  style: inline-block;
+}
+
+/*.right-side {
+  style: inline-block;
+}
+*/
+header a {
+  letter-spacing: 0.015625em;
+  font-size: .875rem;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color .15s ease-in;
+  color: black;
+}
+
+header p {
+  font-size: 1em;
+  style: inline-block;
+  margin: 5px 10px;
+  padding: 0 10px;
+}
+
+.background {
+  position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+
+.header-img {
+  background-image: url("images/city-scape.svg");
+}
+.info-img {
+  background-color:  rgb(39, 53, 71);
+}
+.install-img {
+  background-image: url("images/forklift.svg");
+}
+
+
+.background-text {
+  margin: 0 auto /*  to center the ext in the middle of div */;
+  color: white;
+  text-align: left;
+  width: 28%;
+  padding-top: 100px ;
+  padding-left: 280px;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.col-3 {
+  width: 20%
+ }
+
+
+.centered {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 75px 0;
+  text-align: center;
+}
+
+
+.btn {
+  color: white;
+  font-size: 1em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  margin: 40px auto 0;
+  padding: 5px 10px;
+  border: 2px black solid 0.2 ;
+  border-radius: 20px;
+}
+
+.yellow {
+  background-color: rgb(240, 146, 51);
+}
+.red {
+  background-color: rgb(203, 56, 55);
+
+}
+.grey {
+  background-color: rgb(49, 68, 88);
+}
+
+
+.middle-line { /* keskendatud kõik keskjoonele*/
+  width: 1200px;
+  padding: 4rem;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  margin: 10px 30px;
+}
+
+
+.service-box {
+  display: block;
+  font-size: 1.3em;
+  text-align: center;
+  border: 2px none #eee;
+  box-sizing: border-box;
+  margin: 50px 40px 50px 40px;
+  padding: 15px;
+  width: 26%;
+}
+
+.photo {
+  margin-top: 100px;
+  margin-left: 200px;
+  width: 40%;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto; 
+  text-align: center;
+
+}
+
+.background-text-free {
+  /*margin: 0 auto   to center the ext in the middle of div */
+  color: white;
+  text-align: justify;
+  width: 32%;
+  padding-top: 35px ;
+  padding-right: 140px;
+  display: inline-block;
+
+}
+
+.ii {
+  width: 30%;
+  text-align: left;
+  display: inline-block;
+  padding-top: 150px;
+}
+
+
+.clearfix { 
+  clear: both; 
+  }
+
+.litle {
+  font-size: 1.05rem;
+}
+
+.info-li {
+  margin: 15px;
+  font-size: 1.4em
+  font-weight: 100;
+}
+
+#info .red {
+  background: red;
+  color: white;
+  font-weight: none;
+  text-decoration: none;
+  cursor: pointer;
+  width: 250px;
+}
+#what .red {
+  color: red;
+  background: white;
+  font-weight: none;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+#what a:hover {
+  text-decoration: underline;
+}
+
+#info a {
+  text-decoration: none;
+  color: white;
+}
+#info p {
+  font-size: 14px;
+  text-align: center;
+}
+
+#install background-text {
+  padding-top: 200px;
+}
